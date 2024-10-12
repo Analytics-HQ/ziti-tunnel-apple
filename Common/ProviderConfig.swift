@@ -70,9 +70,9 @@ class ProviderConfig : NSObject {
     var fallbackDns:String = "1.1.1.1"
     var username = "Ziti"
 #if os(macOS)
-    var localizedDescription = "Ziti Desktop Edge"
+    var localizedDescription = "AHQ Edge Desktop"
 #else
-    var localizedDescription = "Ziti Mobile Edge"
+    var localizedDescription = "AHQ Edge Mobile"
 #endif
     var logLevel:Int = Int(ZitiLog.LogLevel.INFO.rawValue)
     var interceptMatchedDns:Bool = true

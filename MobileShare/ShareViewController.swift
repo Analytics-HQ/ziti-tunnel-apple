@@ -190,7 +190,7 @@ class ShareViewController: UIViewController, UITableViewDelegate, UITableViewDat
     }
     
     @IBAction func onCancelButton(_ sender: Any) {
-        let error = NSError(domain: "Ziti Mobile Edge Share", code: 0, userInfo: [NSLocalizedDescriptionKey: "User canceled request"])
+        let error = NSError(domain: "AHQ Edge Mobile Share", code: 0, userInfo: [NSLocalizedDescriptionKey: "User canceled request"])
         extensionContext?.cancelRequest(withError: error)
     }
     

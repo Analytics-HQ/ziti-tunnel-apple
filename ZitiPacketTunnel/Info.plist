@@ -24,6 +24,10 @@
 	<string>public.app-category.utilities</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+	<key>MAC_APP_IDENTIFIER</key>
+	<string>$(MAC_APP_IDENTIFIER)</string>
+	<key>MAC_EXT_IDENTIFIER</key>
+	<string>$(MAC_EXT_IDENTIFIER)</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright NetFoundry. All rights reserved.</string>
 	<key>NSMainStoryboardFile</key>
@@ -32,9 +36,5 @@
 	<string>NSApplication</string>
 	<key>TeamIdentifierPrefix</key>
 	<string>$(TeamIdentifierPrefix)</string>
-	<key>MAC_APP_IDENTIFIER</key>
-	<string>$(MAC_APP_IDENTIFIER)</string>
-	<key>MAC_EXT_IDENTIFIER</key>
-	<string>$(MAC_EXT_IDENTIFIER)</string>
 </dict>
 </plist>

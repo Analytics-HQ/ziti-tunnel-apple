@@ -215,7 +215,7 @@
 /* Begin PBXFileReference section */
 		5A0004922832C3DF00351FE2 /* ServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewController.swift; sourceTree = "<group>"; };
 		5A00FB9E2849731D00479380 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		5A02AAB4206EBD7E006261C6 /* Ziti Desktop Edge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ziti Desktop Edge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A02AAB4206EBD7E006261C6 /* AHQ Edge Desktop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AHQ Edge Desktop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A02AAB7206EBD7E006261C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A02AAB9206EBD7E006261C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5A02AABB206EBD7E006261C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -235,7 +235,7 @@
 		5A2D2FE224AB899E00D154AA /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
 		5A2E11B324B6A5BD002856F3 /* MobileShare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MobileShare.entitlements; sourceTree = "<group>"; };
 		5A2EA2A52097890400437608 /* ProviderConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderConfig.swift; sourceTree = "<group>"; };
-		5A2EA2C9209B750A00437608 /* Ziti Mobile Edge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ziti Mobile Edge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A2EA2C9209B750A00437608 /* AHQ Edge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AHQ Edge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A2EA2CB209B750A00437608 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A2EA2D0209B750A00437608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A2EA2D2209B750C00437608 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -370,9 +370,9 @@
 		5A02AAB5206EBD7E006261C6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5A02AAB4206EBD7E006261C6 /* Ziti Desktop Edge.app */,
+				5A02AAB4206EBD7E006261C6 /* AHQ Edge Desktop.app */,
 				5A02AACB206EBDD5006261C6 /* PacketTunnelProvider.appex */,
-				5A2EA2C9209B750A00437608 /* Ziti Mobile Edge.app */,
+				5A2EA2C9209B750A00437608 /* AHQ Edge.app */,
 				5A2EA2DF209B754400437608 /* MobilePacketTunnelProvider.appex */,
 				5AF3DCA924B52642005047BC /* MobileShare.appex */,
 			);
@@ -547,9 +547,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5A02AAB3206EBD7E006261C6 /* Ziti Desktop Edge */ = {
+		5A02AAB3206EBD7E006261C6 /* AHQ Edge Desktop */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A02AAC4206EBD7E006261C6 /* Build configuration list for PBXNativeTarget "Ziti Desktop Edge" */;
+			buildConfigurationList = 5A02AAC4206EBD7E006261C6 /* Build configuration list for PBXNativeTarget "AHQ Edge Desktop" */;
 			buildPhases = (
 				5A02AAB0206EBD7E006261C6 /* Sources */,
 				5A02AAB1206EBD7E006261C6 /* Frameworks */,
@@ -562,12 +562,12 @@
 			dependencies = (
 				5A02AAD2206EBDD5006261C6 /* PBXTargetDependency */,
 			);
-			name = "Ziti Desktop Edge";
+			name = "AHQ Edge Desktop";
 			packageProductDependencies = (
 				5AF4624F29CA4D8800A06DFA /* CZiti */,
 			);
 			productName = ZitiPacketTunnel;
-			productReference = 5A02AAB4206EBD7E006261C6 /* Ziti Desktop Edge.app */;
+			productReference = 5A02AAB4206EBD7E006261C6 /* AHQ Edge Desktop.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5A02AACA206EBDD5006261C6 /* PacketTunnelProvider */ = {
@@ -587,9 +587,9 @@
 			productReference = 5A02AACB206EBDD5006261C6 /* PacketTunnelProvider.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		5A2EA2C8209B750A00437608 /* Ziti Mobile Edge */ = {
+		5A2EA2C8209B750A00437608 /* AHQ Edge Mobile */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A2EA2D8209B750C00437608 /* Build configuration list for PBXNativeTarget "Ziti Mobile Edge" */;
+			buildConfigurationList = 5A2EA2D8209B750C00437608 /* Build configuration list for PBXNativeTarget "AHQ Edge Mobile" */;
 			buildPhases = (
 				5A2EA2C5209B750A00437608 /* Sources */,
 				5A2EA2C6209B750A00437608 /* Frameworks */,
@@ -603,12 +603,12 @@
 				5A2EA2E6209B754500437608 /* PBXTargetDependency */,
 				5AF3DCB224B52642005047BC /* PBXTargetDependency */,
 			);
-			name = "Ziti Mobile Edge";
+			name = "AHQ Edge Mobile";
 			packageProductDependencies = (
 				5AF4624F29CA4D8800A06DFA /* CZiti */,
 			);
 			productName = ZitiMobilePacketTunnel;
-			productReference = 5A2EA2C9209B750A00437608 /* Ziti Mobile Edge.app */;
+			productReference = 5A2EA2C9209B750A00437608 /* AHQ Edge.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5A2EA2DE209B754400437608 /* MobilePacketTunnelProvider */ = {
@@ -765,9 +765,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5A02AAB3206EBD7E006261C6 /* Ziti Desktop Edge */,
+				5A02AAB3206EBD7E006261C6 /* AHQ Edge Desktop */,
 				5A02AACA206EBDD5006261C6 /* PacketTunnelProvider */,
-				5A2EA2C8209B750A00437608 /* Ziti Mobile Edge */,
+				5A2EA2C8209B750A00437608 /* AHQ Edge Mobile */,
 				5A2EA2DE209B754400437608 /* MobilePacketTunnelProvider */,
 				5AF3DCA824B52642005047BC /* MobileShare */,
 			);
@@ -1145,6 +1145,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7TFGF9M77M;
 				ENABLE_HARDENED_RUNTIME = YES;
 				EXCLUDED_ARCHS = "";
 				HEADER_SEARCH_PATHS = "$(inherited)";
@@ -1156,6 +1157,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MAC_APP_IDENTIFIER)";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.analyticshq.AHQEdgeDesktop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -1172,6 +1174,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7TFGF9M77M;
 				ENABLE_HARDENED_RUNTIME = YES;
 				EXCLUDED_ARCHS = "";
 				HEADER_SEARCH_PATHS = "$(inherited)";
@@ -1182,6 +1185,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MAC_APP_IDENTIFIER)";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.analyticshq.AHQEdgeDesktop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1197,6 +1201,7 @@
 				CODE_SIGN_ENTITLEMENTS = PacketTunnelProvider/PacketTunnelProvider.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7TFGF9M77M;
 				ENABLE_BITCODE = "$(inherited)";
 				ENABLE_HARDENED_RUNTIME = YES;
 				EXCLUDED_ARCHS = "";
@@ -1212,6 +1217,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				"OTHER_SWIFT_FLAGS[arch=*]" = "-DLOCALHOST_PROXY";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MAC_EXT_IDENTIFIER)";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.analyticshq.AHQEdgeDesktop.ptp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -1229,6 +1235,7 @@
 				CODE_SIGN_ENTITLEMENTS = PacketTunnelProvider/PacketTunnelProvider.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7TFGF9M77M;
 				ENABLE_BITCODE = "$(inherited)";
 				ENABLE_HARDENED_RUNTIME = YES;
 				EXCLUDED_ARCHS = "";
@@ -1243,6 +1250,7 @@
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MAC_EXT_IDENTIFIER)";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.analyticshq.AHQEdgeDesktop.ptp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1263,8 +1271,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 0;
+				DEVELOPMENT_TEAM = 7TFGF9M77M;
 				ENABLE_BITCODE = "$(inherited)";
 				INFOPLIST_FILE = ZitiMobilePacketTunnel/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1272,7 +1282,8 @@
 				);
 				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "$(IOS_APP_IDENTIFIER)";
-				PRODUCT_NAME = "Ziti Mobile Edge";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.analyticshq.AHQEdgeMobile;
+				PRODUCT_NAME = "AHQ Edge";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1291,8 +1302,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 0;
+				DEVELOPMENT_TEAM = 7TFGF9M77M;
 				ENABLE_BITCODE = "$(inherited)";
 				INFOPLIST_FILE = ZitiMobilePacketTunnel/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1300,7 +1313,8 @@
 				);
 				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "$(IOS_APP_IDENTIFIER)";
-				PRODUCT_NAME = "Ziti Mobile Edge";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.analyticshq.AHQEdgeMobile;
+				PRODUCT_NAME = "AHQ Edge";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1319,6 +1333,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 0;
+				DEVELOPMENT_TEAM = 7TFGF9M77M;
 				ENABLE_BITCODE = "$(inherited)";
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = MobilePacketTunnelProvider/Info.plist;
@@ -1331,6 +1346,7 @@
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "$(IOS_EXT_IDENTIFIER)";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.analyticshq.AHQEdgeMobile.ptp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1352,6 +1368,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 0;
+				DEVELOPMENT_TEAM = 7TFGF9M77M;
 				ENABLE_BITCODE = "$(inherited)";
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = MobilePacketTunnelProvider/Info.plist;
@@ -1364,6 +1381,7 @@
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "$(IOS_EXT_IDENTIFIER)";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.analyticshq.AHQEdgeMobile.ptp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1383,6 +1401,7 @@
 				CODE_SIGN_ENTITLEMENTS = MobileShare/MobileShare.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7TFGF9M77M;
 				INFOPLIST_FILE = MobileShare/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1393,6 +1412,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "$(IOS_SHARE_IDENTIFIER)";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.analyticshq.AHQEdgeMobile.share;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -1410,6 +1430,7 @@
 				CODE_SIGN_ENTITLEMENTS = MobileShare/MobileShare.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7TFGF9M77M;
 				INFOPLIST_FILE = MobileShare/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1419,6 +1440,7 @@
 				);
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "$(IOS_SHARE_IDENTIFIER)";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.analyticshq.AHQEdgeMobile.share;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -1441,7 +1463,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A02AAC4206EBD7E006261C6 /* Build configuration list for PBXNativeTarget "Ziti Desktop Edge" */ = {
+		5A02AAC4206EBD7E006261C6 /* Build configuration list for PBXNativeTarget "AHQ Edge Desktop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A02AAC5206EBD7E006261C6 /* Debug */,
@@ -1459,7 +1481,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A2EA2D8209B750C00437608 /* Build configuration list for PBXNativeTarget "Ziti Mobile Edge" */ = {
+		5A2EA2D8209B750C00437608 /* Build configuration list for PBXNativeTarget "AHQ Edge Mobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A2EA2D9209B750C00437608 /* Debug */,

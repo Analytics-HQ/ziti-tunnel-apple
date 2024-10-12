@@ -20,6 +20,10 @@
 	<string>2.42</string>
 	<key>CFBundleVersion</key>
 	<string>0</string>
+	<key>IOS_APP_IDENTIFIER</key>
+	<string>$(IOS_APP_IDENTIFIER)</string>
+	<key>IOS_EXT_IDENTIFIER</key>
+	<string>$(IOS_EXT_IDENTIFIER)</string>
 	<key>NSExtension</key>
 	<dict>
 		<key>NSExtensionAttributes</key>
@@ -47,9 +51,5 @@
 	</dict>
 	<key>TeamIdentifierPrefix</key>
 	<string>$(TeamIdentifierPrefix)</string>
-    <key>IOS_APP_IDENTIFIER</key>
-    <string>$(IOS_APP_IDENTIFIER)</string>
-    <key>IOS_EXT_IDENTIFIER</key>
-    <string>$(IOS_EXT_IDENTIFIER)</string>
 </dict>
 </plist>

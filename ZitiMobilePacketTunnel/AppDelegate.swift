@@ -61,6 +61,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         center.delegate = self
         UserNotifications.shared.requestAuth()
         
+        Thread.sleep(forTimeInterval: 3)
+        
         return true
     }
 
